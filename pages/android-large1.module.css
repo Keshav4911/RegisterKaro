@@ -1,0 +1,164 @@
+.forNewClients {
+  font-weight: 500;
+}
+.flashSale20Container {
+  flex: 1;
+  position: relative;
+}
+.flashSale,
+.flashSaleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flashSale {
+  background-color: var(--color-deepskyblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-7xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--btn-text-size);
+  color: var(--light-background-color);
+  font-family: var(--h3);
+}
+.flashSaleParent {
+  flex-direction: column;
+  padding: 0 0 26.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 306px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.androidLarge2Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl) var(--padding-25xl);
+}
+.whetherYoureAn {
+  margin: 0;
+}
+.vestibulumSitAmetContainer {
+  align-self: stretch;
+  position: relative;
+}
+.titleSubtitleBlock,
+.titleSubtitleContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.titleSubtitleContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.titleSubtitleBlock {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) var(--padding-25xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--btn-text-size);
+  color: var(--color-gray-700);
+  font-family: var(--h3);
+}
+.androidLarge3Child {
+  width: 564px;
+  height: 579px;
+  position: absolute;
+  margin: 0 !important;
+  top: 230.2px;
+  left: 469px;
+  background: linear-gradient(
+    -90deg,
+    rgba(217, 217, 217, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(115, 115, 115, 0)
+  );
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  mix-blend-mode: lighten;
+  z-index: 1;
+}
+.safeLedgerPrivate {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 28px;
+}
+.copyright {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-500);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-24xl);
+  z-index: 1;
+}
+.footerBackgroundIcon {
+  margin-left: -867px;
+  width: 3216px;
+  height: 1260px;
+  position: relative;
+  object-fit: cover;
+  max-width: 894%;
+  flex-shrink: 0;
+}
+.androidLarge2,
+.androidLarge3,
+.copyrightParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.copyrightParent {
+  align-self: stretch;
+  height: 85px;
+  align-items: flex-start;
+  padding: 0 0 34.9px;
+  max-width: 100%;
+}
+.androidLarge2,
+.androidLarge3 {
+  position: relative;
+  overflow: hidden;
+  align-items: flex-end;
+}
+.androidLarge3 {
+  align-self: stretch;
+  background-color: var(--light-background-color);
+  padding: 43.1px 0 var(--padding-12xs);
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base-3);
+  color: var(--color-silver-200);
+  font-family: var(--h3);
+}
+.androidLarge2 {
+  width: 100%;
+  height: 8082px;
+  background-color: var(--color-gray-100);
+  padding: 0 0 1358.7px;
+  line-height: normal;
+  letter-spacing: normal;
+}

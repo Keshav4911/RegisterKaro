@@ -1,0 +1,124 @@
+.androidLarge4Child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.subscribeForLatest {
+  margin: 0;
+}
+.h3,
+.yourEmail {
+  position: relative;
+}
+.h3 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.yourEmail {
+  width: 78px;
+  border: 0;
+  outline: 0;
+  font-family: var(--h3);
+  font-size: var(--btn-text-size);
+  background-color: transparent;
+  height: 28px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  color: var(--second-text-color);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.formControlInputStyle1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xl);
+}
+.inputGroupText {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-family: var(--h3);
+  color: var(--light-background-color);
+  text-align: center;
+  display: inline-block;
+  min-width: 62px;
+}
+.btn,
+.emailInput {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-100);
+  padding: var(--padding-9xs) var(--padding-base);
+  background-color: var(--primary-color);
+  width: 96px;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.emailInput {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.androidLarge4,
+.cardItem,
+.row {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardItem {
+  margin-top: -38px;
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background: linear-gradient(270deg, #d71489, #004788);
+  flex-direction: column;
+  padding: var(--padding-35xl) var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.androidLarge4,
+.row {
+  align-self: stretch;
+}
+.row {
+  height: 200px;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+.androidLarge4 {
+  background-color: var(--light-background-color);
+  flex-direction: column;
+  padding: var(--padding-sm-2) var(--padding-mini) var(--padding-57xl-6)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-19xl-1);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--light-background-color);
+  font-family: var(--h3);
+}

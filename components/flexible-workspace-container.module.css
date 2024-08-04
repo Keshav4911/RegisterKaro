@@ -1,0 +1,138 @@
+.heading2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.spanrtlM4q803ImagecontainerIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 24px;
+}
+.pricesForIndia {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 99px;
+}
+.pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchIconPricingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.searchForA {
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  line-height: 24px;
+}
+.citySearchPricing,
+.pricingContainer,
+.searchInputPricing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchInputPricing {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.citySearchPricing,
+.pricingContainer {
+  align-self: stretch;
+}
+.citySearchPricing {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  color: var(--color-darkslategray-100);
+}
+.pricingContainer {
+  flex-direction: column;
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-base);
+}
+.ourFlexibleFullyCustomisab {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  z-index: 1;
+}
+.workspaceContent {
+  flex-direction: column;
+  gap: var(--gap-12xs-2);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--color-black);
+}
+.privateOfficesContainer,
+.workspaceContent,
+.workspaceDescription {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workspaceDescription {
+  flex-direction: column;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-3xl-8);
+}
+.privateOfficesContainer {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+}
+.flexibleWorkspace,
+.flexibleWorkspaceContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.flexibleWorkspace {
+  flex: 1;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-lg-2) 0 var(--padding-15xl) var(--padding-base);
+  gap: var(--gap-52xl-8);
+}
+.flexibleWorkspaceContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

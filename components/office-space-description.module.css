@@ -1,0 +1,80 @@
+.officeSpaceDescriptionChild {
+  width: 360px;
+  height: 294px;
+  position: relative;
+  background: linear-gradient(180deg, #000, rgba(102, 102, 102, 0));
+  display: none;
+  max-width: 100%;
+}
+.fromASingle {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  z-index: 2;
+}
+.choiceDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl);
+}
+.discoverTheUltimate,
+.div {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.discoverTheUltimate {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.div {
+  flex: 1;
+  letter-spacing: -0.5px;
+  line-height: 3.93px;
+  display: inline-block;
+  min-width: 9.4px;
+}
+.wrapper {
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl-6);
+  color: var(--color-orangered);
+  font-family: var(--font-georgia);
+}
+.officeSpaceDescription,
+.workspaceSolution {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-17xl);
+}
+.officeSpaceDescription {
+  margin-top: -302px;
+  background: linear-gradient(180deg, #000, rgba(102, 102, 102, 0));
+  align-items: flex-start;
+  padding: var(--padding-95xl) var(--padding-sm) var(--padding-12xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  flex-shrink: 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--light-background-color);
+  font-family: var(--font-assistant);
+}

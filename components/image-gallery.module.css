@@ -1,0 +1,73 @@
+.image1Icon {
+  width: 45.6px;
+  height: 45.6px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-2) var(--padding-10xs) 0 0;
+}
+.imagesChild {
+  width: 45.3px;
+  height: 45.3px;
+  position: relative;
+  border-radius: 11.68px 11.68px 0 0;
+  object-fit: cover;
+}
+.images1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.bangalore1Icon {
+  height: 53.3px;
+  width: 53.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image3Icon {
+  width: 45.6px;
+  height: 45.6px;
+  position: relative;
+  object-fit: cover;
+}
+.images2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-6) var(--padding-10xs) 0 0;
+}
+.image3Icon1 {
+  width: 45.3px;
+  height: 45.3px;
+  position: relative;
+  object-fit: cover;
+}
+.imageGallery {
+  width: 712.9px;
+  margin: 0 !important;
+  position: absolute;
+  top: 596.8px;
+  right: 603.1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .imageGallery {
+    justify-content: center;
+  }
+}

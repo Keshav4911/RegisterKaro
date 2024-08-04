@@ -1,0 +1,38 @@
+.newDelhi,
+.officeMembershipHeading {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.officeMembershipHeading {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 11.77px;
+  background-color: var(--color-whitesmoke-400);
+}
+.newDelhi {
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 60px;
+}
+.officeMembership,
+.officeMembershipDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.officeMembershipDescription {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
+}
+.officeMembership {
+  height: 105.6px;
+  width: 73.6px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--btn-text-size);
+  color: var(--light-background-color);
+  font-family: var(--font-assistant);
+}

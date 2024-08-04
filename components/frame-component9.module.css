@@ -1,0 +1,170 @@
+.benefits {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(-90deg, #22417a, #3f78e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 106px;
+}
+.reviewsIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.newReviews {
+  position: absolute;
+  top: 8.5px;
+  left: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+  z-index: 1;
+}
+.reviewsIconParent {
+  height: 30px;
+  width: 83.8px;
+  position: relative;
+  font-size: var(--font-size-3xs-6);
+}
+.benefitsParent {
+  width: 328.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.icnResizeIcnMd {
+  width: 36px;
+  height: 29.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h3FeatureTitle1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.paragraph {
+  width: 239px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--second-text-color);
+  display: inline-block;
+}
+.cardItem,
+.colMd4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardItem {
+  box-shadow: var(--accentued-drop-shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--light-background-color);
+  overflow: hidden;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.colMd4 {
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.paragraph1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--second-text-color);
+}
+.colMd41 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph2 {
+  width: 235px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.cardItem2,
+.colMd42 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardItem2 {
+  box-shadow: var(--accentued-drop-shadow);
+  border-radius: var(--br-xl);
+  background-color: var(--color-deepskyblue);
+  overflow: hidden;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.colMd42 {
+  color: var(--light-background-color);
+}
+.frameParent,
+.row,
+.rowWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.row {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.rowWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-56xl-1) var(--padding-mini);
+  gap: var(--gap-7xl-5);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--light-background-color);
+  font-family: var(--h3);
+}

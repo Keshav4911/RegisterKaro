@@ -1,0 +1,153 @@
+.aRangeOf,
+.heading2 {
+  position: relative;
+  line-height: 24px;
+}
+.heading2 {
+  display: inline-block;
+  min-width: 117px;
+}
+.aRangeOf {
+  align-self: stretch;
+  font-size: var(--h5-size);
+}
+.privateOfficeHeadings {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-5xs);
+}
+.calendarsvgIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.durationIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.byMonthOr {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 117.7px;
+  flex-shrink: 0;
+}
+.rentalDuration {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.teamsOfAny,
+.teamssvgIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.teamssvgIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.teamsOfAny {
+  line-height: 24px;
+  display: inline-block;
+  min-width: 122.7px;
+}
+.privateOfficesRental {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  font-size: var(--h5-size);
+  color: var(--color-dimgray-200);
+}
+.from89,
+.getAQuote {
+  position: relative;
+  line-height: 24px;
+}
+.from89 {
+  align-self: stretch;
+  color: var(--color-teal);
+}
+.getAQuote {
+  font-size: var(--h5-size);
+  font-family: var(--font-assistant);
+  color: var(--light-background-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.link {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue);
+  padding: var(--padding-10xs) var(--padding-mid) var(--padding-10xs)
+    var(--padding-xl);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.learnMore {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--h5-size);
+  line-height: 24px;
+  font-family: var(--font-assistant);
+  color: var(--color-mediumslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+}
+.divswiperSlide,
+.link1,
+.privateOfficeActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link1 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumslateblue);
+  padding: var(--padding-10xs) var(--padding-lg);
+  background-color: var(--light-background-color);
+  border-radius: var(--br-base);
+  white-space: nowrap;
+}
+.divswiperSlide,
+.privateOfficeActions {
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-base);
+}
+.divswiperSlide {
+  width: 280px;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-background-color);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-xs) var(--padding-base)
+    var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

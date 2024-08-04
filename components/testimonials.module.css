@@ -1,0 +1,209 @@
+.trustedByThe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 4.5px;
+  display: inline-block;
+  min-width: 11px;
+}
+.whitespace {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs-7);
+  font-size: var(--font-size-18xl-1);
+  color: var(--color-orangered);
+  font-family: var(--font-georgia);
+}
+.trustedCompanies {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-4);
+  max-width: 100%;
+}
+.page1Icon,
+.slackRgbIcon {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.page1Icon {
+  height: 93.5px;
+  flex: 1;
+  max-width: 191px;
+  min-width: 188px;
+}
+.slackRgbIcon {
+  align-self: stretch;
+  height: 78.7px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.logos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-4) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+  max-width: 192px;
+}
+.weWork1 {
+  align-self: stretch;
+  height: 38.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logos1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+  max-width: 192px;
+}
+.image7Icon {
+  align-self: stretch;
+  height: 50.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logos2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+  max-width: 192px;
+}
+.groupIcon {
+  align-self: stretch;
+  height: 41.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.groupWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+  max-width: 192px;
+}
+.iciciBankLogoSymbol1Icon {
+  align-self: stretch;
+  height: 41.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.companyLogos,
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.logoContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xl-1) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+  max-width: 192px;
+}
+.companyLogos {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-43xl);
+}
+.testimonialContent,
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonialContent {
+  width: 1462.2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+}
+.testimonials {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-136xl-5);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 900px) {
+  .trustedByThe {
+    font-size: var(--font-size-13xl);
+    line-height: 26px;
+  }
+  .div {
+    font-size: var(--font-size-11xl);
+    line-height: 4px;
+  }
+  .companyLogos {
+    gap: var(--gap-12xl);
+  }
+  .testimonialContent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .trustedByThe {
+    font-size: var(--h3-size);
+    line-height: 19px;
+  }
+  .div {
+    font-size: var(--font-size-3xl);
+    line-height: 3px;
+  }
+  .companyLogos {
+    gap: var(--gap-mini);
+  }
+  .testimonialContent {
+    gap: var(--gap-6xl);
+  }
+  .testimonials {
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}

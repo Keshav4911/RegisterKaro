@@ -1,0 +1,271 @@
+.getYourVirtual {
+  font-weight: 500;
+}
+.getYourVirtualContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.getYourVirtualOfficeUpAndWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+}
+.procedureToObtain {
+  position: relative;
+  line-height: 36px;
+  font-weight: 300;
+}
+.frameChild {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  margin: 0 !important;
+  right: 130px;
+  bottom: -5px;
+  object-fit: contain;
+}
+.procedureToObtainVirtualOfParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-89xl);
+  position: relative;
+  font-size: var(--h5-size);
+  color: var(--color-darkslategray-600);
+}
+.frameItem {
+  width: 27.7px;
+  height: 248px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorWrapper {
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reachOutTo,
+.uploadEssentialDocuments {
+  position: absolute;
+  margin: 0 !important;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.uploadEssentialDocuments {
+  width: 318px;
+  bottom: 194px;
+  left: -61px;
+}
+.reachOutTo {
+  width: 308px;
+  top: 60px;
+  right: -95px;
+}
+.connectWith {
+  margin: 0;
+}
+.connectWithRegisterkaroContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.frameInner {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-10xl);
+}
+.connectWithRegisterkaroParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-137xl);
+  font-size: var(--h5-size);
+  color: var(--text-color);
+}
+.frameWrapper1,
+.reachOutToOurFriendlyCustParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reachOutToOurFriendlyCustParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper1 {
+  width: 123px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.ellipseIcon {
+  height: 248px;
+  width: 27.7px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameDiv {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xl);
+}
+.giveEssentialDetailsContainer {
+  width: 186px;
+  position: relative;
+  font-size: var(--h5-size);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  color: var(--text-color);
+}
+.frameContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frameWrapper,
+.readyToWorkContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.readyToWorkContent {
+  justify-content: flex-end;
+  padding: 0 var(--padding-43xl) 0 var(--padding-44xl);
+}
+.frameGroup,
+.readyToWorkBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.readyToWorkBlock {
+  width: 215px;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  font-size: var(--h5-size);
+  color: var(--text-color);
+}
+.frameGroup {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-117xl);
+}
+.frameParent,
+.uploadEssentialDocumentsReqParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.uploadEssentialDocumentsReqParent {
+  flex: 1;
+  align-items: flex-start;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: var(--gap-23xl-3);
+}
+.onceYourApplicationContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-height: 60px;
+}
+.approvedApplication {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-3xs);
+}
+.androidLarge4,
+.androidLarge4Wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.androidLarge4 {
+  flex: 1;
+  background-color: var(--light-background-color);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-13xl) var(--padding-mini) var(--padding-lgi)
+    var(--padding-sm);
+  gap: var(--gap-xs);
+}
+.androidLarge4Wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-56xl);
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--btn-text-size);
+  color: var(--second-text-color);
+  font-family: var(--h3);
+}

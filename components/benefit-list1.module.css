@@ -1,0 +1,40 @@
+.mailHandlingServices {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.mailHandlingServicesContainer {
+  position: relative;
+  line-height: 32px;
+}
+.frameChild {
+  height: 33px;
+  width: 18px;
+  position: relative;
+}
+.efficientManagementOf {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.benefitList,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--btn-text-size);
+  color: var(--color-gray-200);
+}
+.benefitList {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

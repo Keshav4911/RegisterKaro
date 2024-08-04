@@ -1,0 +1,74 @@
+.checkBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -9.33px;
+  left: 8.9px;
+  border-radius: 4.54px;
+  background-color: var(--color-lightblue);
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+.androidCheckmarkCircleIcon {
+  height: 18.2px;
+  width: 18.2px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.checkIcon,
+.checkMark {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkMark {
+  position: relative;
+}
+.checkIcon {
+  padding: 0 var(--padding-4xs);
+}
+.nullaLobortisNunc {
+  align-self: stretch;
+  position: relative;
+  line-height: 31.77px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.checkItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-3);
+}
+.interdumEtMalesuad {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-1);
+  line-height: 18.15px;
+  color: var(--color-dimgray-400);
+}
+.featureItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl-4);
+  min-width: 148px;
+  text-align: left;
+  font-size: var(--font-size-2xl-2);
+  color: var(--color-gray-700);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 450px) {
+  .nullaLobortisNunc {
+    font-size: var(--font-size-mid);
+    line-height: 25px;
+  }
+}

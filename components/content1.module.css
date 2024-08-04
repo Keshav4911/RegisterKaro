@@ -1,0 +1,265 @@
+.shape {
+  position: absolute;
+  top: 209.9px;
+  left: 44.3px;
+  background: linear-gradient(180deg, #d0d0d0, rgba(37, 12, 12, 0));
+  width: 436.3px;
+  height: 412.2px;
+}
+.shapeIcon,
+.shapeIcon1 {
+  position: absolute;
+  top: 260.5px;
+  left: 0;
+  width: 381.9px;
+  height: 437.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.shapeIcon1 {
+  top: 0;
+  left: 233.9px;
+  width: 292.1px;
+  height: 307.3px;
+  z-index: 2;
+}
+.shapes {
+  height: 698px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.mainContentInner,
+.shapesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shapesWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.mainContentInner {
+  height: 810px;
+  width: 526px;
+  flex-direction: column;
+  min-width: 526px;
+}
+.discoverTheUltimate,
+.div {
+  position: relative;
+  letter-spacing: -1px;
+}
+.discoverTheUltimate {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 56px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.div {
+  width: 18.8px;
+  line-height: 7.84px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.solutionContent,
+.whitespace {
+  display: flex;
+  align-items: flex-start;
+}
+.whitespace {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  margin-top: -38.9px;
+  font-size: var(--font-size-45xl-9);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-georgia);
+}
+.solutionContent {
+  width: 484px;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 112px;
+  max-width: 100%;
+}
+.fromSoloEntrepreneurs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h5-size);
+  line-height: 24px;
+}
+.solution {
+  width: 587px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl-5);
+  max-width: 100%;
+}
+.benefitsList {
+  flex: 1;
+  flex-direction: column;
+  min-width: 251px;
+}
+.benefits,
+.benefitsList,
+.presenceList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.presenceList {
+  width: 350px;
+  flex-direction: column;
+  min-width: 350px;
+}
+.benefits {
+  align-self: stretch;
+  flex-direction: row;
+}
+.after,
+.talkToAn {
+  position: absolute;
+  left: 0;
+}
+.talkToAn {
+  top: 0;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.after {
+  top: 25px;
+  background-color: var(--color-mediumslateblue);
+  width: 140.1px;
+  height: 1px;
+  z-index: 1;
+}
+.expert {
+  height: 32px;
+  flex: 1;
+  position: relative;
+}
+.benefitsParent,
+.expertWrapper,
+.solutionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.expertWrapper {
+  width: 216.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-19xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumslateblue);
+}
+.benefitsParent,
+.solutionParent {
+  flex-direction: column;
+  max-width: 100%;
+}
+.benefitsParent {
+  align-self: stretch;
+  gap: var(--gap-14xl);
+  font-size: var(--h3-size);
+}
+.solutionParent {
+  width: 776.5px;
+  gap: var(--gap-30xl);
+  min-width: 776.5px;
+}
+.content,
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.mainContent {
+  width: 1502.5px;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.content {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1700px) {
+  .mainContentInner,
+  .solutionParent {
+    flex: 1;
+  }
+  .mainContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mainContentInner {
+    min-width: 100%;
+  }
+  .discoverTheUltimate {
+    font-size: var(--font-size-26xl);
+    line-height: 45px;
+  }
+  .div {
+    font-size: var(--font-size-33xl);
+    line-height: 6px;
+  }
+  .presenceList {
+    flex: 1;
+  }
+  .benefits {
+    flex-wrap: wrap;
+  }
+  .solutionParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverTheUltimate {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+  .div {
+    font-size: var(--font-size-20xl);
+    line-height: 5px;
+  }
+  .benefitsList {
+    gap: var(--gap-xl);
+  }
+  .presenceList {
+    min-width: 100%;
+  }
+  .benefits,
+  .presenceList {
+    gap: var(--gap-xl);
+  }
+  .benefitsParent {
+    gap: var(--gap-base);
+  }
+  .solutionParent {
+    gap: var(--gap-5xl);
+  }
+}

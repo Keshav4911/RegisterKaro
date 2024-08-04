@@ -1,0 +1,296 @@
+.useVirtualAddress {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-37xl);
+  letter-spacing: -1px;
+  line-height: 56px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.companyRegistrationIcon {
+  height: 107.9px;
+  width: 107.9px;
+  position: relative;
+  border-radius: 53.93px;
+  object-fit: cover;
+}
+.companyRegistration {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.enhanceYourProfessional {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h5-size);
+  line-height: 24.15px;
+  color: var(--color-gray-200);
+}
+.optionContent,
+.options {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.optionContent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs-3);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 395px;
+}
+.options {
+  width: 772.7px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-37xl-8);
+  flex-shrink: 0;
+}
+.streamlinedGstRegistration {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.simplifyYourGst {
+  width: 607.8px;
+  position: relative;
+  font-size: var(--h5-size);
+  line-height: 24.15px;
+  color: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.streamlinedGstRegistrationParent {
+  width: 592.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs-3);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.establishYourVirtual,
+.options1 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.options1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-37xl-8);
+  flex-shrink: 0;
+}
+.establishYourVirtual {
+  width: 607.8px;
+  position: relative;
+  font-size: var(--h5-size);
+  line-height: 24.15px;
+  color: var(--color-gray-200);
+}
+.centralizedBusinessHubParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs-3);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 406px;
+  max-width: 100%;
+}
+.options2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-37xl-8);
+  flex-shrink: 0;
+}
+.options2,
+.options3,
+.registrationOptions {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.options3 {
+  width: 772.5px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-37xl-8);
+  flex-shrink: 0;
+}
+.registrationOptions {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-38xl-2);
+  min-width: 513px;
+  z-index: 1;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.section,
+.sectionInner,
+.sectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sectionInner {
+  height: 804.6px;
+  width: 526px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-24xl-6) 0 0;
+  box-sizing: border-box;
+  min-width: 526px;
+}
+.section,
+.sectionWrapper {
+  flex-direction: row;
+}
+.section {
+  flex: 1;
+  background-color: var(--color-whitesmoke-200);
+  justify-content: center;
+  padding: var(--padding-49xl) var(--padding-210xl) var(--padding-49xl-4)
+    var(--padding-221xl);
+  box-sizing: border-box;
+  gap: var(--gap-117xl-4);
+}
+.sectionWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-assistant);
+}
+@media screen and (max-width: 1700px) {
+  .frameChild {
+    align-self: stretch;
+    width: auto;
+  }
+  .sectionInner {
+    flex: 1;
+  }
+  .section {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .optionContent {
+    min-width: 100%;
+  }
+  .options1 {
+    flex-wrap: wrap;
+  }
+  .centralizedBusinessHubParent,
+  .registrationOptions,
+  .sectionInner {
+    min-width: 100%;
+  }
+  .section {
+    gap: var(--gap-49xl);
+    padding: var(--padding-25xl) var(--padding-95xl) var(--padding-25xl)
+      var(--padding-101xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .useVirtualAddress {
+    font-size: var(--font-size-26xl);
+    line-height: 45px;
+  }
+  .companyRegistration {
+    font-size: var(--h3-size);
+    line-height: 19px;
+  }
+  .options {
+    flex-wrap: wrap;
+  }
+  .streamlinedGstRegistration {
+    font-size: var(--h3-size);
+    line-height: 19px;
+  }
+  .options1 {
+    gap: var(--gap-9xl);
+  }
+  .options2,
+  .options3 {
+    flex-wrap: wrap;
+  }
+  .sectionInner {
+    padding-top: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .section {
+    gap: var(--gap-15xl);
+    padding: var(--padding-10xl) var(--padding-38xl) var(--padding-10xl)
+      var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .useVirtualAddress {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+  .companyRegistration {
+    font-size: var(--font-size-lg);
+    line-height: 14px;
+  }
+  .options {
+    gap: var(--gap-9xl);
+  }
+  .streamlinedGstRegistration {
+    font-size: var(--font-size-lg);
+    line-height: 14px;
+  }
+  .options2,
+  .options3 {
+    gap: var(--gap-9xl);
+  }
+  .registrationOptions {
+    gap: var(--gap-10xl);
+  }
+  .sectionInner {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

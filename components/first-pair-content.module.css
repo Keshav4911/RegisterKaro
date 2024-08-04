@@ -1,0 +1,40 @@
+.firstPairTopChild {
+  width: 39.3px;
+  height: 36.4px;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.nullaLobortisNunc {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.firstPairTop {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-7xs-6);
+}
+.interdumEtMalesuad {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-400);
+}
+.firstPairContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-700);
+  font-family: var(--h3);
+}

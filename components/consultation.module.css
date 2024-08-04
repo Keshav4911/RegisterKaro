@@ -1,0 +1,118 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  left: 2.1px;
+  width: 321.9px;
+  height: 243px;
+  z-index: 2;
+}
+.rectangleParent {
+  top: 0;
+  width: 326px;
+  height: 326px;
+}
+.frameInner,
+.lineDiv,
+.rectangleParent {
+  position: absolute;
+  left: 0;
+}
+.frameInner {
+  top: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--text-color);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.lineDiv {
+  top: 32px;
+  border-top: 1px solid var(--color-dimgray-300);
+  box-sizing: border-box;
+  width: 327px;
+  height: 1px;
+  z-index: 3;
+}
+.bookAFree {
+  font-weight: 500;
+}
+.bookAFreeContainer {
+  position: absolute;
+  top: 49px;
+  left: 15px;
+  display: inline-block;
+  width: 296px;
+  z-index: 4;
+}
+.talkToAn {
+  position: relative;
+  font-size: var(--btn-text-size);
+  line-height: 160.23%;
+  display: inline-block;
+  font-family: var(--h3);
+  color: var(--light-background-color);
+  text-align: left;
+  min-width: 125px;
+}
+.expertButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs-3) var(--padding-17xl);
+  background-color: var(--color-orange);
+  position: absolute;
+  top: 128px;
+  left: 65px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.frameParent,
+.rectangleGroup {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.rectangleGroup {
+  top: 211px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--text-color);
+  height: 182px;
+  z-index: 1;
+}
+.frameParent {
+  top: 0;
+  height: 100%;
+}
+.consultationInner {
+  height: 393px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.consultation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) var(--padding-56xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--light-background-color);
+  font-family: var(--h3);
+}

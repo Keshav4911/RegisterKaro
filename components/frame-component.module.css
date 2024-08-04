@@ -1,0 +1,66 @@
+.frameChild,
+.frameInner,
+.frameItem {
+  align-self: stretch;
+  width: 52.6px;
+  position: relative;
+  border-radius: 8.41px;
+  background-color: var(--color-whitesmoke-400);
+}
+.frameInner,
+.frameItem {
+  width: 52.2px;
+  border-radius: 8.35px;
+}
+.frameInner {
+  width: 52.9px;
+  border-radius: 8.46px;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bangalore,
+.newDelhi,
+.noida {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+}
+.bangalore,
+.noida {
+  min-width: 26px;
+}
+.bangalore {
+  min-width: 44px;
+}
+.cityNamesContainer {
+  align-self: stretch;
+  height: 18.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--light-background-color);
+  font-family: var(--font-assistant);
+}

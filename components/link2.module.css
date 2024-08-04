@@ -1,0 +1,115 @@
+.expertIconsvg {
+  width: 75.6px;
+  height: 75.6px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.expertIconsvgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg-8) 0 0;
+}
+.heading2 {
+  height: 19.3px;
+  width: 96.7px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -7.7px;
+  left: 0.1px;
+  border-bottom: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.talkToUs {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.48px;
+  line-height: 23.2px;
+  z-index: 2;
+}
+.heading21,
+.heading22,
+.heading23,
+.heading24 {
+  height: 19.3px;
+  width: 96.7px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -665.7px;
+  left: 0;
+  border-bottom: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.heading22,
+.heading23,
+.heading24 {
+  height: 10.1px;
+  bottom: -497.3px;
+  left: -0.3px;
+}
+.heading23,
+.heading24 {
+  height: 19.3px;
+  bottom: -172.7px;
+  left: 2px;
+}
+.heading24 {
+  bottom: -346.9px;
+  left: 3.4px;
+}
+.heading2Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.getAdviceFrom {
+  margin: 0;
+}
+.getAdviceFromContainer {
+  position: relative;
+  line-height: 23.15px;
+  font-weight: 600;
+}
+.frameChild {
+  width: 29.9px;
+  height: 7.1px;
+  position: relative;
+}
+.getAdviceFromOneOfOurExpParent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+  font-size: var(--btn-text-size);
+  color: var(--color-dimgray-200);
+}
+.frameParent,
+.getAdviceFromOneOfOurExpParent,
+.link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl-7);
+}
+.link {
+  align-self: stretch;
+  border-radius: 15.44px;
+  background-color: var(--light-background-color);
+  border: 1.9px solid var(--color-whitesmoke-600);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-6xs)
+    var(--padding-6xl);
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-assistant);
+}

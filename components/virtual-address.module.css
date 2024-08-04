@@ -1,0 +1,139 @@
+.useVirtualAddress1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 56px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.companyRegistrationIcon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: 53.93px;
+  object-fit: cover;
+}
+.enhanceYourProfessional {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--btn-text-size);
+  line-height: 24px;
+  color: var(--color-gray-200);
+}
+.companyRegistrationItems,
+.registrationFeatures {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.registrationFeatures {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-12xs);
+}
+.companyRegistrationItems {
+  align-self: stretch;
+  height: 108px;
+  flex-direction: row;
+  align-items: center;
+}
+.streamlinedGstRegistration {
+  position: relative;
+  line-height: 25px;
+  font-weight: 600;
+}
+.companyRegistrationItems1,
+.companyRegistrationItems2 {
+  align-self: stretch;
+  height: 131px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.companyRegistrationItems2 {
+  height: 155px;
+}
+.efficientCallManagement {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  font-weight: 600;
+}
+.impressInvestorsAnd {
+  width: 249px;
+  position: relative;
+  font-size: var(--btn-text-size);
+  line-height: 24px;
+  color: var(--color-gray-200);
+  display: flex;
+  align-items: center;
+}
+.flexibleMeetingSolutionsParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 343px;
+  max-width: 100%;
+}
+.companyRegistrationItems4 {
+  width: 677.8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 207%;
+  flex-shrink: 0;
+}
+.companyRegistration {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumslateblue);
+}
+.companyRegistration,
+.useVirtualAddress,
+.virtualAddress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.useVirtualAddress {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.virtualAddress {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 4106.8px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-113xl) var(--padding-base);
+  box-sizing: border-box;
+  min-height: 1419px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

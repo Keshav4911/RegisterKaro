@@ -1,0 +1,124 @@
+.whyOptFor {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.delegateWorkspaceCustomizati {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--btn-text-size);
+  line-height: 24px;
+}
+.launchwiseContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.featureIcon {
+  width: 9.7px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-mediumslateblue);
+}
+.featureContentIcon {
+  width: 9.7px;
+  height: 9.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.featuresButtonsParent {
+  gap: var(--gap-24xl-8);
+}
+.featuresButtonsParent,
+.launchwiseFeature,
+.launchwiseFeaturesList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.launchwiseFeature {
+  flex: 1;
+  gap: var(--gap-15xl-7);
+}
+.launchwiseFeaturesList {
+  height: 229.9px;
+  padding: var(--padding-7xs-7) 0 0;
+  box-sizing: border-box;
+}
+.primeNationwideOptions {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.exploreOurDiverse {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-9);
+  line-height: 19.36px;
+}
+.primeOptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-5);
+}
+.comprehensiveOfficeSolutions {
+  position: relative;
+  line-height: 20px;
+}
+.costEffectiveSolutionsWith {
+  align-self: stretch;
+  position: relative;
+  line-height: 19.36px;
+}
+.launchwiseFeatures,
+.locationSolutions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationSolutions {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.launchwiseFeatures {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-3xs-7);
+  font-size: var(--font-size-lg);
+}
+.launchwiseParent,
+.launchwiseParentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.launchwiseParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.launchwiseParentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) var(--padding-33xl) var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}

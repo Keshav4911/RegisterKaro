@@ -1,0 +1,154 @@
+.searchYourCity {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 106px;
+}
+.citySearch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.icon {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  width: 17.9px;
+  height: 17px;
+  overflow: hidden;
+  z-index: 1;
+}
+.divrtlOie8m1Iconalignmentcs {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-background-color);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.searchNearby {
+  width: calc(100% - 17.9px);
+  border: 0;
+  outline: 0;
+  font-family: var(--font-assistant);
+  font-size: var(--btn-text-size);
+  background-color: transparent;
+  height: 13px;
+  flex: 1;
+  position: relative;
+  line-height: 12.14px;
+  color: var(--color-mediumslateblue);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 51px;
+  padding: 0;
+}
+.button {
+  width: 85px;
+  border-bottom: 0.7px solid var(--color-mediumslateblue);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-11xs-4) 0 0;
+  flex-shrink: 0;
+}
+.button,
+.form,
+.label,
+.searchForm {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.label {
+  align-self: stretch;
+  height: 39px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  gap: var(--gap-5xs);
+}
+.form,
+.searchForm {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.form {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke-400);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-sm) var(--padding-18xl)
+    var(--padding-mini);
+  gap: var(--gap-6xs);
+}
+.searchForm {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-mini-5);
+}
+.trendingCities1 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.trendingCitiesTitle {
+  flex-direction: row;
+  padding: 0 var(--padding-51xl) 0 var(--padding-53xl);
+}
+.moreCitiesContainer,
+.trendingCities,
+.trendingCitiesContainer,
+.trendingCitiesTitle {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trendingCities {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.moreCitiesContainer,
+.trendingCitiesContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-24xl) 0 var(--padding-23xl);
+  box-sizing: border-box;
+}
+.trendingCitiesContainer {
+  height: 115.3px;
+  color: var(--light-background-color);
+}
+.moreCitiesContainer {
+  height: 76.3px;
+}
+.citySearchContainer,
+.searchFormContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.searchFormContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi-5);
+  flex-shrink: 0;
+}
+.citySearchContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-assistant);
+}
